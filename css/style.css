@@ -1,0 +1,185 @@
+/*
+Project Name: Relaxr landing page
+Client: Relaxr
+Author: Katie Dowden
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+	color: #000;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+	max-width: 90%;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.intro {
+	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 900px;
+	}
+
+h1	{
+	color: white;
+	padding: 20px;
+	font-size: 350%;
+	font-weight: 800;
+	}
+
+h2	{
+	color: white;
+	padding-top: 200px;
+	font-size: 300%;
+	font-weight: 600;
+	text-align: center;
+	}
+
+#top 	{
+	text-align: center;
+	}
+
+#top a	{
+	background-color: #f9e42e;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 200%;
+	font-weight: 800;
+	color:#033048;
+	text-align: center;
+	padding: 20px;
+	margin-top: 60px;
+	display: inline-block;
+	width: 300px;
+	}
+
+.benefits	{
+	background-color: #f0efef;
+	height: 900px;
+	padding-top: 60px;
+	font-size: 225%;
+	font-weight: 300;
+	color: #606161;
+	}
+
+h3	{ 
+	color: #033048;
+	font-size: 225%;
+	font-weight: 600;
+	margin-bottom: 20px;
+	}
+
+p 	{
+	padding-left: 5px;
+	}
+
+ul 	{
+	padding-left: 80px;
+	margin-top: 30px;
+	list-style-type: disc;
+
+	}
+
+.testimony 	{
+	background: url("../images/testimonial_bg.jpg") no-repeat center top rgb(134,141,157);
+	background-size: cover;
+	height: 500px;
+	}
+
+blockquote	{
+	text-align: center;
+	color: #606161;
+	width: 500px;
+	padding-top: 40px;
+	margin: 0 auto;
+	font-size: 225%;
+	font-weight: 300;
+	font-style: italic;
+	}
+
+.testimony h2	{
+	padding-top: 20px;
+	}
+
+#bottom		{
+	background-color: #f9e42e;
+	height: 200px;
+	text-align: center;
+	}
+
+#bottom a 	{
+	background-color: #033048;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 200%;
+	font-weight: 800;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	margin-top: 60px;
+	display: inline-block;
+	width: 300px;
+	}
+
+footer	{
+	background-color: #121212;
+	height: 500px;
+	text-align: center;
+	}
+
+h4 		{
+	color: #f9e42e;
+	padding: 50px;
+	font-size: 350%;
+	font-weight: 800;
+	text-align: center;
+	}
+
+img 	{
+	padding: 30px;
+	}
+
+.container div 	{
+	padding: 60px;
+	font-weight: 600;
+	color: #606161;
+}
+
