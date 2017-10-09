@@ -107,7 +107,7 @@ h3	{
 	margin-bottom: 20px;
 	}
 
-p 	{
+.benefits p 	{
 	padding-left: 5px;
 	}
 
@@ -181,5 +181,147 @@ img 	{
 	padding: 60px;
 	font-weight: 600;
 	color: #606161;
-}
+	}
 
+.blog_intro 	{
+	background-color: #033048;
+	height: 150px;
+	}
+header ul 	{
+	padding: 25px 0px 25px 0px; 
+	}
+header li 	{
+	display: inline-block;
+	}
+
+header li a 	{
+	color: #f9e42e;
+	text-decoration: none;
+	padding: 20px;
+	text-align: right;
+	}
+
+header nav 	{
+	float: right;
+	}
+
+.blog_intro h1 	{
+	float: left;
+	}
+
+main 	{
+	background-color: #f0efef;
+	}
+
+.column_1 	{
+	float: left;
+	display: inline-block;
+	width: 69%;
+	padding-bottom: 150px
+	}
+
+.column_2 	{
+	float: right;
+	display: inline-block;
+	width: 29%;
+	}
+
+.column_1 h2 	{
+	color: #033048;
+	font-weight: 600;
+	padding: 30px 0px;
+	text-align: left;
+	}
+
+.article 	{
+	padding-bottom: 20px;
+	border-bottom: 2px solid #606161;
+	margin-right: 2%;
+	}
+
+.column_1 img 	{
+	width: 100%;
+	padding: 30px 0px 30px 0px;
+	}
+
+.article nav	{
+	text-align: right;
+	padding-top: 20px;
+	} 
+
+.article a 		{
+	color: #033048;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	}
+
+.column_2 h3 	{
+	color: #033048;
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	font-weight: 800;
+	font-size: 30px;
+	}
+
+.column_2 li 	{
+	color: #033048;
+	font-weight: 300;
+	list-style-type: none;
+	font-size: 20px;
+	padding: 0px;
+	}
+
+.column_2 ul	{
+	padding: 0px;
+	margin-top: 10px;
+	}
+
+.advert 	{
+	padding-right: 30px;
+	align-items: left;
+	}
+
+.column_2 div 	{
+	padding: 10px 0px;
+	}
+
+.column_2 a 		{
+	color: #033048;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 20px;
+	}
+
+.column_1 p 	{
+	color: #606161;
+	}
+
+column_2 p 	{
+	font-weight: 300;
+	color: #033048;
+	}
+
+.other_container 	{
+	padding-left: 50px;
+	}
+
+.third img{
+	padding: 10px 0px 0px 0px;
+	max-width: 100%;
+	height: auto;
+	}
+
+.firstcharacter 	{
+	  float: left;
+	  font-size: 75px;
+	  line-height: 60px;
+	  padding-top: 4px;
+	  padding-right: 8px;
+	  padding-left: 3px;
+	}
+
+a:hover, a:visited	{
+	font-size: 125%;
+	text-decoration: underline;
+	}
